@@ -11,6 +11,9 @@
 :::
 _感谢所有上游仓库的贡献者们_
 
+本仓库
+::git{repo="nczxe/fuwariT-CN"}
+国际版博客仓库
 ::github{repo="nczxe/fuwariT"}
 原仓库
 ::github{repo="saicaca/fuwari"}

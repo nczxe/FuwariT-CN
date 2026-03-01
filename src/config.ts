@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "FR-NEXT",
+	title: "FR-NEXT-CN",
 	subtitle: "一个基于Fuwari模板搭建的博客",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
@@ -60,7 +60,7 @@ export const profileConfig: ProfileConfig = {
 	avatar:
 		"https://github.com/nczxe/fuwariT/blob/main/src/content/assets/images/aaa.webp?raw=true", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "FR-NEXT",
-	bio: "有未来才有共存可说，不一定牵着手，但一定永远向前走",
+	bio: "有共存才有未来可说，不一定牵着手，但一定永远向前走",
 	links: [
 		{
 			name: "Bilibili",
@@ -96,16 +96,20 @@ export const sourcesConfig = {
 	defaultSource: "default", // 默认源的键名
 	sources: {
 		default: {
-			name: "默认源(Cloudflare全球)",
-			url: "https://blog.tncrr.us.kg",
+			name: "默认源(CN)",
+			url: "https://cnblog.tncrr.us.kg",
 		},
 		vercel: {
-			name: "Vercel(全球)",
+			name: "Vercel(国际版)",
 			url: "https://fuwari-t.vercel.app",
 		},
 		edgeone: {
-			name: "EdgeOne(全球)",
+			name: "EdgeOne(国际版)",
 			url: "https://edgeoneglobal.tncrr.us.kg/",
+		},
+		cloudflare: {
+			name: "Cloudflare(国际版)",
+			url: "https://blog.tncrr.us.kg",
 		},
 	},
 };
